@@ -1,0 +1,158 @@
+body{
+    background-image: url(blog/fondo\ todos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: Arial, sans-serif;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    
+}
+.imagen1 {
+  
+  height: auto;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.imagen1:hover {
+  filter: grayscale(50%) brightness(120%) contrast(150%);
+  transform: scale(1.1);}
+.imagen1 {
+    
+    margin-left: 380px;
+    transform: translateY(-10px);
+    
+}
+      #menu{
+    list-style-type: none;
+    display: flex;
+    
+    margin-left: 450px;
+    align-items: center;
+    flex-wrap: wrap;
+     
+
+ }
+ #menu li a, #redes li a{
+    color: #18171c;
+    padding:10px;
+    
+ }
+
+ #redes{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 560px;
+ }
+ p{
+    color: black;
+    
+}
+p{
+    text-align: center;
+    justify-content: center;
+}
+nav{
+  position: sticky;
+  top: 0;
+  background-color:#ffffbf;
+  z-index: 1000;
+  padding: 10px 0;
+  margin: 0;
+  display: block;
+  
+}
+a{
+    text-decoration: none;
+}
+nav{
+  position: sticky;
+  top: 0;
+  background-color:#ffffbf;
+  z-index: 1000;
+  padding: 10px 0;
+  margin: 0;
+  display: block;
+  
+}
+a{
+    text-decoration: none;
+}
+:root{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    --color1:#334960;
+    --color2:black;
+    --color4:red;
+    
+    background-color: var(--color2);
+}
+header{     
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:20px;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:100;  
+}
+
+#menu,#redes{
+    list-style-type: none;         
+}
+#menu li a, #redes li a{
+    text-decoration: none;
+    
+    color:var(--color4)
+}
+#menu li a:hover,#redes li a:hover{
+    color:var(--color2); 
+}     
+h1{
+    text-align: center;
+    border: solid;
+    background-color: #d5ac67;
+    
+}
+p{
+    text-align: center;
+    background-color: #ffffbf;
+    
+}
+h2{
+  position: sticky;
+  top: 70px;
+  text-decoration: underline;
+  background-color: #d5ac67;
+  
+  margin-bottom: 10px;
+  padding: 1opx;
+  text-align: center;
+}
+.video-container{
+
+    margin-left: 380px;
+    
+    
+    
+}
+ .video-container2 {
+    max-width: 100%;
+    height: auto;
+    margin-left: 340px;
+  }
+
+
+    
+

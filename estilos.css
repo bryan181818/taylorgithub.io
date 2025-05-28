@@ -1,0 +1,65 @@
+body{
+    background-image: url(intro/taylor\ fondo\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+p{
+    color: white;
+    
+}
+p{
+    text-align: center;
+}
+html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+}
+ img {
+     max-width: 100%;
+     height: auto;
+    opacity: 0.5;
+    box-shadow: 10px 10px 15px rgba(223, 9, 9, 0.374);
+ }
+ #menu li a, #redes li a{
+    color: #d8cd91;
+    padding:10px;
+ }
+ #menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    margin-left: -30px; 
+
+ }
+ #redes{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 308px;
+ }
+ a{
+    text-decoration: none;
+ }
+
+#menu,#redes{
+            
+}
+#menu li a, #redes li a{
+    text-decoration: none;
+    
+    color: gold;
+;
+}
+#menu li a:hover,#redes li a:hover{
+    color: red;
+}
